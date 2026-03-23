@@ -1,6 +1,6 @@
 @echo off
 pushd %~dp0
-python -m venv .venv
+py -3.10 -m venv .venv
 call .venv\Scripts\activate.bat
 python -m pip install -U pip
 pip install -r requirements.txt
